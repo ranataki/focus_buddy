@@ -14,6 +14,13 @@
 		D65BCC5D2E551AE600384197 /* FocusBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BCC5C2E551AE600384197 /* FocusBuddyTests.swift */; };
 		D65BCC672E551AE600384197 /* FocusBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BCC662E551AE600384197 /* FocusBuddyUITests.swift */; };
 		D65BCC692E551AE600384197 /* FocusBuddyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BCC682E551AE600384197 /* FocusBuddyUITestsLaunchTests.swift */; };
+		D65BCC762E551DAB00384197 /* FocusTimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BCC752E551DAB00384197 /* FocusTimerViewModel.swift */; };
+		D65BCC782E55261400384197 /* PresetChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BCC772E55261400384197 /* PresetChip.swift */; };
+		D65BCC7C2E552B9200384197 /* FloatingTimerWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BCC7B2E552B9200384197 /* FloatingTimerWindow.swift */; };
+		D65BCC7E2E552F8E00384197 /* FloatingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BCC7D2E552F8E00384197 /* FloatingTimerView.swift */; };
+		D65BCC802E554CE500384197 /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BCC7F2E554CE500384197 /* FlowLayout.swift */; };
+		D65BCC822E55573A00384197 /* ThemePal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BCC812E55573A00384197 /* ThemePal.swift */; };
+		D65BCC842E55579200384197 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BCC832E55579200384197 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,13 @@
 		D65BCC622E551AE600384197 /* FocusBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocusBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D65BCC662E551AE600384197 /* FocusBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusBuddyUITests.swift; sourceTree = "<group>"; };
 		D65BCC682E551AE600384197 /* FocusBuddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusBuddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D65BCC752E551DAB00384197 /* FocusTimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTimerViewModel.swift; sourceTree = "<group>"; };
+		D65BCC772E55261400384197 /* PresetChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetChip.swift; sourceTree = "<group>"; };
+		D65BCC7B2E552B9200384197 /* FloatingTimerWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTimerWindow.swift; sourceTree = "<group>"; };
+		D65BCC7D2E552F8E00384197 /* FloatingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTimerView.swift; sourceTree = "<group>"; };
+		D65BCC7F2E554CE500384197 /* FlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
+		D65BCC812E55573A00384197 /* ThemePal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePal.swift; sourceTree = "<group>"; };
+		D65BCC832E55579200384197 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +110,17 @@
 			isa = PBXGroup;
 			children = (
 				D65BCC4A2E551AE400384197 /* FocusBuddyApp.swift */,
+				D65BCC752E551DAB00384197 /* FocusTimerViewModel.swift */,
+				D65BCC812E55573A00384197 /* ThemePal.swift */,
 				D65BCC4C2E551AE400384197 /* ContentView.swift */,
+				D65BCC772E55261400384197 /* PresetChip.swift */,
+				D65BCC7F2E554CE500384197 /* FlowLayout.swift */,
+				D65BCC7B2E552B9200384197 /* FloatingTimerWindow.swift */,
+				D65BCC7D2E552F8E00384197 /* FloatingTimerView.swift */,
 				D65BCC4E2E551AE500384197 /* Assets.xcassets */,
 				D65BCC532E551AE500384197 /* FocusBuddy.entitlements */,
 				D65BCC502E551AE500384197 /* Preview Content */,
+				D65BCC832E55579200384197 /* SettingsView.swift */,
 			);
 			path = FocusBuddy;
 			sourceTree = "<group>";
@@ -259,8 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D65BCC802E554CE500384197 /* FlowLayout.swift in Sources */,
+				D65BCC822E55573A00384197 /* ThemePal.swift in Sources */,
+				D65BCC762E551DAB00384197 /* FocusTimerViewModel.swift in Sources */,
+				D65BCC842E55579200384197 /* SettingsView.swift in Sources */,
 				D65BCC4D2E551AE400384197 /* ContentView.swift in Sources */,
+				D65BCC7E2E552F8E00384197 /* FloatingTimerView.swift in Sources */,
+				D65BCC782E55261400384197 /* PresetChip.swift in Sources */,
 				D65BCC4B2E551AE400384197 /* FocusBuddyApp.swift in Sources */,
+				D65BCC7C2E552B9200384197 /* FloatingTimerWindow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

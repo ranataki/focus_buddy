@@ -31,6 +31,6 @@ It helps you stay focused with customizable sessions, color themes, and a clean,
 
 1. Open the project in **Xcode**  
 2. Select **My Mac** as the run target  
-3. Press **Run ▶️**  
+3. Press **Run**  
 4. Grant notification permission when prompted
 
